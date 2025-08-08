@@ -18,22 +18,21 @@ This project provides end-to-end (E2E) UI test automation for the [Saucedemo App
 
 ---
 
-## Setup Instructions (Local)
+# Setup Instructions (Local)
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/<your-username>/<your-repo-name>.git
-   cd <your-repo-name>
-Install dependencies:
+## Install dependencies:
 ```bash
 npm install
+```
 
-Run all tests:
+## Run all tests:
 ```bash
 npm test
 # or
 npm run wdio
+```
 
-Run a specific test:
+## Run a specific test:
 ```bash
 npx wdio run ./wdio.conf.js --spec ./test/specs/<file-name>.js
+```
