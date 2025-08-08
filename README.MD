@@ -1,6 +1,6 @@
 # WebdriverIO: Saucedemo Test Project
 
-This project provides end-to-end (E2E) UI test automation for the [Saucedemo App](https://www.saucedemo.com), implemented using WebdriverIO with the Mocha framework.
+This project provides end-to-end (E2E) UI test automation for the [Saucedemo App](https://www.saucedemo.com), implemented using WebdriverIO.
 
 ---
 
@@ -25,22 +25,15 @@ This project provides end-to-end (E2E) UI test automation for the [Saucedemo App
    git clone https://github.com/<your-username>/<your-repo-name>.git
    cd <your-repo-name>
 Install dependencies:
-
-bash
-Copy
-Edit
+```bash
 npm install
-Run all tests:
 
-bash
-Copy
-Edit
+Run all tests:
+```bash
 npm test
 # or
 npm run wdio
-Run a specific test:
 
-bash
-Copy
-Edit
+Run a specific test:
+```bash
 npx wdio run ./wdio.conf.js --spec ./test/specs/<file-name>.js
